@@ -18,18 +18,22 @@
   "license": "ISC",
   "homepage": "https://github.com/janis-commerce/aws-listener-test.git#readme",
   "devDependencies": {
-    "husky": "^2.4.1",
+    "@janiscommerce/aws-listeners": "^1.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3",
+    "husky": "^2.4.1",
     "mocha": "^5.2.0",
-    "nyc": "^13.1.0",
-    "sinon": "^7.3.2"
+    "nyc": "^13.1.0"
   },
   "files": [
     "lib/"
   ],
   "directories": {
     "test": "tests"
+  },
+  "dependencies": {
+    "@janiscommerce/sls-api-response": "^1.3.1",
+    "sinon": "^9.0.3"
   }
 }
