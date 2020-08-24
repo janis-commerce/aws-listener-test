@@ -134,19 +134,19 @@ describe('AWSListenerTest', () => {
 				code: AWSListenerTestError.codes.INVALID_RULES
 			});
 
-			// assert.throws(() => AWSListenerTest(MyHandler, [{
-			// 	description: 'Valid description',
-			// 	event: null
-			// }]), {
-			// 	code: AWSListenerTestError.codes.INVALID_RULES
-			// });
+			assert.throws(() => AWSListenerTest(MyHandler, [{
+				description: 'Valid description',
+				event: null
+			}]), {
+				code: AWSListenerTestError.codes.INVALID_RULES
+			});
 
-			// assert.throws(() => AWSListenerTest(MyHandler, [{
-			// 	description: 'Valid description',
-			// 	event: 0
-			// }]), {
-			// 	code: AWSListenerTestError.codes.INVALID_RULES
-			// });
+			assert.throws(() => AWSListenerTest(MyHandler, [{
+				description: 'Valid description',
+				event: 0
+			}]), {
+				code: AWSListenerTestError.codes.INVALID_RULES
+			});
 		});
 
 		it('Should throw if a rule before hook is not a function', () => {
@@ -228,8 +228,7 @@ describe('AWSListenerTest', () => {
 		AWSListenerTest(ErrorHandler, [
 			{
 				description: 'Should fail if status code is not OK',
-				event: SNSMessage,
-				responseCode: 400
+				event: SNSMessage
 			}
 		]);
 
