@@ -1,8 +1,8 @@
 # aws-listener-test
 
-[![Build Status](https://travis-ci.org/janis-commerce/aws-listener-test.svg?branch=master)](https://travis-ci.org/janis-commerce/aws-listener-test)
-[![Coverage Status](https://coveralls.io/repos/github/janis-commerce/aws-listener-test/badge.svg?branch=master)](https://coveralls.io/github/janis-commerce/aws-listener-test?branch=master)
-[![npm version](https://badge.fury.io/js/%40janiscommerce%2Faws-listener-test.svg)](https://www.npmjs.com/package/@janiscommerce/aws-listener-test)
+![Build Status](https://github.com/janis-commerce/aws-listeners-test/workflows/Build%20Status/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/janis-commerce/aws-listeners-test/badge.svg?branch=master)](https://coveralls.io/github/janis-commerce/aws-listeners-test?branch=master)
+[![npm version](https://badge.fury.io/js/%40janiscommerce%2Faws-listeners-test.svg)](https://www.npmjs.com/package/@janiscommerce/aws-listeners-test)
 
 A package for testing AWS Listeners developed with @janiscommerce/aws-listeners
 
